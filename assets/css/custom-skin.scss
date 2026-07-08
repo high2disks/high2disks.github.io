@@ -1,0 +1,30 @@
+/* ==========================================================================
+   high2disks custom skin
+   Colors: Bicocca Red (#9C102E), Hopkins Blue (#002D72)
+   ========================================================================== */
+
+/* Links */
+$link-color: #002D72 !default;              /* Hopkins Blue */
+$link-color-hover: #9C102E !default;        /* Bicocca Red */
+$link-color-visited: #001a45 !default;      /* Darker Hopkins Blue */
+
+/* Navigation bar */
+$masthead-link-color: #002D72 !default;
+$masthead-link-color-hover: #9C102E !default;
+
+/* Buttons */
+$primary-color: #002D72 !default;           /* Hopkins Blue */
+
+/* Footer */
+$footer-background-color: #002D72 !default;
+
+/* Syntax highlighting (base) */
+$code-background-color: #f5f5f5 !default;
+
+/* Border colors */
+$border-color: mix(#fff, #002D72, 75%) !default;
+
+/* Text */
+$text-color: #2d2d2d !default;
+$muted-text-color: #555 !default;
+$background-color: #fff !default;

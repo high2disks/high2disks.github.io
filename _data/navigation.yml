@@ -4,5 +4,11 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Observations"
+    url: /observations/
+  - title: "Data"
+    url: /data/
+  - title: "Publications"
+    url: /publications/
   - title: "Team"
     url: /team/
