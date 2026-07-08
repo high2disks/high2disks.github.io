@@ -1,0 +1,43 @@
+# Site settings
+title: "high2disks"
+subtitle: ""
+name: "high2disks"
+description: "The homepage for the high2disks project."
+url: "https://high2disks.github.io"
+baseurl: ""
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Outputting
+permalink: /:categories/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+  - scope:
+      path: ""
+    values:
+      layout: single
