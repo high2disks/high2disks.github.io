@@ -1,30 +1,31 @@
 /* ==========================================================================
-   high2disks custom skin
-   Colors: Bicocca Red (#9C102E), Hopkins Blue (#002D72)
+   high2disks custom skin — elegant refresh
+   Brand: Bicocca Red (#9C102E), Hopkins Blue (#002D72)
+   Complementary: Warm ivory (#FAFAF7), Slate (#3D4F5F), Light gold (#E8DCC8)
    ========================================================================== */
 
 /* Links */
-$link-color: #002D72 !default;              /* Hopkins Blue */
-$link-color-hover: #9C102E !default;        /* Bicocca Red */
-$link-color-visited: #001a45 !default;      /* Darker Hopkins Blue */
+$link-color: #9C102E !default;              /* Bicocca Red — primary accent */
+$link-color-hover: #002D72 !default;        /* Hopkins Blue on hover */
+$link-color-visited: #6e0b20 !default;      /* Darker Red */
 
 /* Navigation bar */
-$masthead-link-color: #002D72 !default;
+$masthead-link-color: #3D4F5F !default;     /* Elegant slate */
 $masthead-link-color-hover: #9C102E !default;
 
 /* Buttons */
-$primary-color: #002D72 !default;           /* Hopkins Blue */
+$primary-color: #9C102E !default;           /* Bicocca Red */
 
 /* Footer */
-$footer-background-color: #002D72 !default;
+$footer-background-color: #002D72 !default; /* Hopkins Blue — grounding element */
 
 /* Syntax highlighting (base) */
-$code-background-color: #f5f5f5 !default;
+$code-background-color: #F4F1EC !default;   /* Warm neutral */
 
 /* Border colors */
-$border-color: mix(#fff, #002D72, 75%) !default;
+$border-color: #E8DCC8 !default;            /* Soft gold border */
 
 /* Text */
-$text-color: #2d2d2d !default;
-$muted-text-color: #555 !default;
-$background-color: #fff !default;
+$text-color: #2B2B2B !default;
+$muted-text-color: #5A6A72 !default;        /* Cooler muted tone */
+$background-color: #FAFAF7 !default;        /* Warm ivory background */
