@@ -7,15 +7,27 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Custom overrides for high2disks branding */
-/* Bicocca Red: #9C102E | Hopkins Blue: #002D72 */
+/* ==========================================================================
+   high2disks — Elegant Custom Styles
+   Brand: Bicocca Red (#9C102E), Hopkins Blue (#002D72)
+   Complementary: Warm ivory (#FAFAF7), Slate (#3D4F5F), Light gold (#E8DCC8)
+   ========================================================================== */
 
+/* --- Masthead / Navigation ------------------------------------------------ */
 .masthead {
-  border-bottom: 2px solid #9C102E;
+  background-color: #fff;
+  border-bottom: 3px solid #E8DCC8;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+.greedy-nav {
+  background: #fff;
 }
 
 .greedy-nav a {
-  color: #002D72;
+  color: #3D4F5F;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .greedy-nav a:hover {
@@ -26,33 +38,115 @@
   background: #9C102E;
 }
 
+/* Site title in nav */
+.site-title {
+  color: #002D72 !important;
+  font-weight: 700;
+}
+
+/* --- Page Titles & Headings ----------------------------------------------- */
 .page__title {
+  color: #002D72;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: #002D72;
 }
 
+h2 {
+  border-bottom: 2px solid #E8DCC8;
+  padding-bottom: 0.3em;
+}
+
+/* --- Links ---------------------------------------------------------------- */
 a {
-  color: #002D72;
+  color: #9C102E;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #9C102E;
+  color: #002D72;
+  text-decoration: underline;
 }
 
+/* --- Buttons -------------------------------------------------------------- */
 .btn--primary {
-  background-color: #002D72;
-  border-color: #002D72;
+  background-color: #9C102E;
+  border-color: #9C102E;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn--primary:hover {
-  background-color: #9C102E;
-  border-color: #9C102E;
+  background-color: #002D72;
+  border-color: #002D72;
+  box-shadow: 0 2px 8px rgba(0, 45, 114, 0.25);
 }
 
+/* --- Footer --------------------------------------------------------------- */
 .page__footer {
   background-color: #002D72;
-  color: #fff;
+  color: #E8DCC8;
+  border-top: 4px solid #9C102E;
 }
 
 .page__footer a {
-  color: #ccc;
+  color: #E8DCC8;
+  transition: color 0.2s ease;
+}
+
+.page__footer a:hover {
+  color: #fff;
+}
+
+/* --- General Layout Polish ------------------------------------------------ */
+body {
+  background-color: #FAFAF7;
+}
+
+.page__content {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* Subtle accent bar on blockquotes */
+blockquote {
+  border-left: 4px solid #9C102E;
+  background: #F4F1EC;
+  padding: 0.75em 1.25em;
+  margin-left: 0;
+  color: #3D4F5F;
+}
+
+/* Code blocks */
+code {
+  background: #F4F1EC;
+  border-radius: 3px;
+  padding: 0.15em 0.4em;
+  font-size: 0.9em;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 2px solid #E8DCC8;
+  margin: 2em 0;
+}
+
+/* Sidebar & Table of Contents accent */
+.sidebar .nav__title {
+  color: #002D72;
+  border-bottom: 1px solid #E8DCC8;
+}
+
+.toc__menu a {
+  color: #3D4F5F;
+}
+
+.toc__menu a:hover,
+.toc__menu a.active {
+  color: #9C102E;
 }
