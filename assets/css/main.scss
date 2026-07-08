@@ -41,7 +41,9 @@
 /* Site title in nav */
 .site-title {
   color: #002D72 !important;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.5rem !important;
+  letter-spacing: 0.01em;
 }
 
 /* --- Page Titles & Headings ----------------------------------------------- */
@@ -88,7 +90,7 @@ a:hover {
 
 /* --- Footer --------------------------------------------------------------- */
 .page__footer {
-  background-color: #002D72;
+  background-color: #3D4F5F;
   color: #E8DCC8;
   border-top: 4px solid #9C102E;
 }
